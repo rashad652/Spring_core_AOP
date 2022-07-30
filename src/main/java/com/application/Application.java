@@ -11,8 +11,8 @@ public class Application {
         var vehicleServices = context.getBean(VehicleServices.class);
         System.out.println(vehicleServices.getClass());
         Song song = new Song();
-        song.setTitle("Blank Space");
-        song.setSingerName("Taylor Swift");
+        song.setTitle("Hotter than Hell!");
+        song.setSingerName("Dua Lipa");
         boolean vehicleStarted = true;
         String moveVehicleStatus = vehicleServices.moveVehicle(vehicleStarted);
         String playMusicStatus = vehicleServices.playMusic(vehicleStarted,song);
