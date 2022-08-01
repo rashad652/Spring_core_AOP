@@ -7,12 +7,8 @@ import com.application.model.Song;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.logging.Logger;
-
 @Component
 public class VehicleServices {
-
-    private Logger logger = Logger.getLogger(VehicleServices.class.getName());
 
     @Autowired
     private Speakers speakers;
